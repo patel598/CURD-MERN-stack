@@ -1,0 +1,27 @@
+.cart_btn {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.product_description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.status_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status_section > span {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #200222;
+}
+.status_btn{
+    min-width: 115px;
+}

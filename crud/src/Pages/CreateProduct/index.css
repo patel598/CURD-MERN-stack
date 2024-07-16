@@ -1,0 +1,12 @@
+.upload_image_field{
+
+    display: flex;
+    cursor: pointer;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.upload_image_field > label {
+    border: 1px solid #c4c4c4;
+    padding: 11px;
+    border-radius: 5px;
+}
